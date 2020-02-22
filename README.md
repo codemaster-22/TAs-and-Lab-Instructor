@@ -1,7 +1,7 @@
 # TAs-and-Lab-Instructor
 Finding the Minimal Spanning Tree
 
-Problem Statement
+Problem Statement:
 - N students in IIT Madras want to be Teaching Assistants(TA) for the OOAIA lab. However, TAs need to
 set the problems and create test cases for each lab. But you might have heard the famous Joker’s saying, “if you
 are good at something, never do that for free”. Taking inspiration from Joker, students demand money to work
@@ -30,7 +30,7 @@ above 3 conditions should still hold after applying this relaxation condition on
 - Find the maximum number of students who can be selected as TAs. Then find the minimum amount of
 money needed to be spent on selecting such a group(Group containing the maximum number of students) after
 applying relaxation condition on this group any number of times - possibly zero.
-- Input Format
+- Input Format :
 - The first line of input contains an integer N(1 ≤ N ≤ 10^5
 ), the number of students who want to work as TAs.
 - The second line contains an integer m(0 ≤ m ≤ min(10^6
@@ -57,7 +57,7 @@ each other. Each of the next p lines contains two space separated integers ui
 (N∗(N−1))/
 2
 ).
-- Output Format
+- Output Format :
 - Output two space-separated integers — the maximum number of students that can be selected as TAs and the
 minimum amount of money needed to be spent on selecting such a group respectively.
 - If it is not possible to select atleast two students, then print -1.
