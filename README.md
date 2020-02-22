@@ -41,7 +41,7 @@ applying relaxation condition on this group any number of times - possibly zero.
 - Each of the next m lines contains three space separated integers ui
 , vi
 , xi (1 ≤ ui
-, vi ≤ N, ui 6= vi and 1 ≤ xi ≤ 105
+, vi ≤ N, ui != vi and 1 ≤ xi ≤ 10^5
 )
 – indices of the students who form i-th pair of partners and money demanded by this pair to work in the lab(if
 selected as TAs) respectively.
@@ -52,11 +52,11 @@ selected as TAs) respectively.
 )) — the number of pairs of students who dislike
 each other. Each of the next p lines contains two space separated integers ui
 , vi(1 ≤ ui
-, vi ≤ N, ui 6= vi) — i-th
+, vi ≤ N, ui != vi) — i-th
 1
 - pair of students who dislike each other.
 - Each pair of people is mentioned in the input atmost once(m + p ≤
-(N∗(N−1))
+(N∗(N−1))/
 2
 ).
 - Output Format
