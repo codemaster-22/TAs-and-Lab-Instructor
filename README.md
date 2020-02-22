@@ -35,7 +35,7 @@ applying relaxation condition on this group any number of times - possibly zero.
 ), the number of students who want to work as TAs.
 - The second line contains an integer m(0 ≤ m ≤ min(10^6
 ,
-(N∗(N−1))
+(N∗(N−1))/
 2
 )) — the number of pairs of partners.
 - Each of the next m lines contains three space separated integers ui
@@ -47,14 +47,12 @@ applying relaxation condition on this group any number of times - possibly zero.
 selected as TAs) respectively.
 - The next line contains an integer p(0 ≤ p ≤ min(10^6
 ,
-(N∗(N−1))
+(N∗(N−1))/
 2
 )) — the number of pairs of students who dislike
 each other. Each of the next p lines contains two space separated integers ui
 , vi(1 ≤ ui
-, vi ≤ N, ui != vi) — i-th
-1
-- pair of students who dislike each other.
+, vi ≤ N, ui != vi) — i-th pair of students who dislike each other.
 - Each pair of people is mentioned in the input atmost once(m + p ≤
 (N∗(N−1))/
 2
