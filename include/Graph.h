@@ -1,3 +1,5 @@
+#ifndef GRAPH_H 
+#define GRAPH_H
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -26,3 +28,5 @@ class Graph
     vector<vector<int>> components;
     long long  int counter,counter1;
 };
+
+#endif
